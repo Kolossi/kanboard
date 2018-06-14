@@ -203,6 +203,7 @@ class ComposerStaticInitbdc3716ceecc7570f8ff9a8407f0ca0e
         'Kanboard\\Action\\TaskAssignCreator' => __DIR__ . '/../..' . '/app/Action/TaskAssignCreator.php',
         'Kanboard\\Action\\TaskAssignCurrentUser' => __DIR__ . '/../..' . '/app/Action/TaskAssignCurrentUser.php',
         'Kanboard\\Action\\TaskAssignCurrentUserColumn' => __DIR__ . '/../..' . '/app/Action/TaskAssignCurrentUserColumn.php',
+        'Kanboard\\Action\\TaskAssignCurrentUserUnassigned' => __DIR__ . '/../..' . '/app/Action/TaskAssignCurrentUserUnassigned.php',
         'Kanboard\\Action\\TaskAssignDueDateOnCreation' => __DIR__ . '/../..' . '/app/Action/TaskAssignDueDateOnCreation.php',
         'Kanboard\\Action\\TaskAssignPrioritySwimlane' => __DIR__ . '/../..' . '/app/Action/TaskAssignPrioritySwimlane.php',
         'Kanboard\\Action\\TaskAssignSpecificUser' => __DIR__ . '/../..' . '/app/Action/TaskAssignSpecificUser.php',

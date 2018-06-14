@@ -23,6 +23,7 @@ use Kanboard\Action\TaskAssignColorUser;
 use Kanboard\Action\TaskAssignCreator;
 use Kanboard\Action\TaskAssignCurrentUser;
 use Kanboard\Action\TaskAssignCurrentUserColumn;
+use Kanboard\Action\TaskAssignCurrentUserUnassigned;
 use Kanboard\Action\TaskAssignSpecificUser;
 use Kanboard\Action\TaskAssignUser;
 use Kanboard\Action\TaskClose;
@@ -77,6 +78,7 @@ class ActionProvider implements ServiceProviderInterface
         $container['actionManager']->register(new TaskAssignCreator($container));
         $container['actionManager']->register(new TaskAssignCurrentUser($container));
         $container['actionManager']->register(new TaskAssignCurrentUserColumn($container));
+        $container['actionManager']->register(new TaskAssignCurrentUserUnassigned($container));
         $container['actionManager']->register(new TaskAssignSpecificUser($container));
         $container['actionManager']->register(new TaskAssignUser($container));
         $container['actionManager']->register(new TaskClose($container));

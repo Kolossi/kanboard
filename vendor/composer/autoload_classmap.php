@@ -77,6 +77,7 @@ return array(
     'Kanboard\\Action\\TaskAssignCreator' => $baseDir . '/app/Action/TaskAssignCreator.php',
     'Kanboard\\Action\\TaskAssignCurrentUser' => $baseDir . '/app/Action/TaskAssignCurrentUser.php',
     'Kanboard\\Action\\TaskAssignCurrentUserColumn' => $baseDir . '/app/Action/TaskAssignCurrentUserColumn.php',
+    'Kanboard\\Action\\TaskAssignCurrentUserUnassigned' => $baseDir . '/app/Action/TaskAssignCurrentUserUnassigned.php',
     'Kanboard\\Action\\TaskAssignDueDateOnCreation' => $baseDir . '/app/Action/TaskAssignDueDateOnCreation.php',
     'Kanboard\\Action\\TaskAssignPrioritySwimlane' => $baseDir . '/app/Action/TaskAssignPrioritySwimlane.php',
     'Kanboard\\Action\\TaskAssignSpecificUser' => $baseDir . '/app/Action/TaskAssignSpecificUser.php',
